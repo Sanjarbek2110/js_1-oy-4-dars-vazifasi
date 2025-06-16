@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body class="bg-[#1e1e1e] pt-[146px] pb-[22px]">
+    
+    <div class="container max-w-[1516px] m-auto max-w-[1287px]:w-[1040px] px-[20px]">
+        <img src="./gif-poke.gif.png" class="m-auto mb-[50px]" alt="">
+
+        <form action="" class=" flex flex-wrap items-center gap-[20px] mb-[37px] max-[713px]:justify-between max-w-[550px]:flex-col ">
+            <input type="text" name="text" id="" placeholder="search your pokemon" class="py-2 pl-[12px] pr-[27px] border border-[#ced4da] rounded-[6px] bg-white text-[#6c757d] text-[15.88px] outline-none max-[713px]:w-[48%] max-[550px]:w-[100%]">
+            <input type="text" name="text" id="" placeholder="all" class="py-2 pl-[12px] pr-[12px] border border-[#ced4da] rounded-[6px] bg-white text-[#212529] text-[15.88px] outline-none opacity-1 max-[713px]:w-[48%] max-[550px]:w-[100%]">
+            <input type="text" name="text" id="" placeholder="sort" class="py-2 pl-[12px] pr-[12px] border border-[#ced4da] rounded-[6px] bg-white text-[#212529] text-[15.88px] outline-none opacity-1 max-[713px]:w-[48%] max-[550px]:w-[100%]">
+            <button class="border border-[#198754] bg-[#198754] rounded-[6px] text-white px-[84px] py-[11px] max-[713px]:w-[48%] max-[550px]:w-[100%]">search</button>
+        </form>
+
+        <ul class="flex flex-wrap justify-between gap-y-[60px] gap-x-[10px] " id="box">
+
+        </ul>
+    </div>
+    
+    <script src="./pokemons.js"></script>
+    <script src="./main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+</html>
